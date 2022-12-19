@@ -32,7 +32,7 @@ const QuoteDetail = () => {
     
     <Route path={match.path} exact>
       <div className='centered'>
-        <Link className='btn--flat' to={`${match.path}/comments`}>Load Comments</Link>
+        <Link className='btn--flat' to={`${match.url}/comments`}>Load Comments</Link>
       </div>
     </Route>
 
