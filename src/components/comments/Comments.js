@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 
 import classes from './Comments.module.css';
 import NewCommentForm from './NewCommentForm';
@@ -22,9 +22,9 @@ const Comments = () => {
     setIsAddingComment(true);
   };
 
-  const addedCommentHandler = () => {
-
-  };
+  const addedCommentHandler = useCallback(() => {
+    sendRequest(quoteId);
+  },[sendRequest,quoteId]);
 
   let comments;
   
