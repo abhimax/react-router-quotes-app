@@ -1,4 +1,33 @@
+
 # React Router Quotes App
+## Tech Stack
++ React JS
++ Firebase DB
++ CSS Module
+
+## Meetup App features.
++ Add New quotes
++ List All added quotes
++ Sort All added quotes ascending and descending manner
++ Show details of any selected quotes
+
+
+
+## Home Screen (Quotes List)
+![QUOTEAPP!](readme-res/home.png)
+
+## Quotes Details view
+![QUOTEAPP!](readme-res/quote-dtl.png)
+
+## Add Quotes view
+![QUOTEAPP!](readme-res/add-new-quote.png)
+
+## Quotes List Sorting
+![QUOTEAPP!](readme-res/sorting.png)
+
+## Firebase DB
+![QUOTEAPP!](readme-res/firebase-db.png)
+
 
 This is a client side application that can view some quotes, dive in some quotes and add some quotes.
 
